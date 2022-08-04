@@ -32,9 +32,6 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "command"
-                                        ],
-                                        "optional": [
-                                            "any"
                                         ]
                                     }
                                 },
@@ -86,9 +83,6 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "command"
-                                        ],
-                                        "optional": [
-                                            "any"
                                         ]
                                     }
                                 },
@@ -113,9 +107,6 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "command"
-                                        ],
-                                        "optional": [
-                                            "any"
                                         ]
                                     }
                                 },
@@ -130,7 +121,7 @@
                                 "type": "basic"
                             }
                         ]
-                    }
+                    },
                 ]
             },
             "devices": [
@@ -944,7 +935,7 @@
                     ]
                 }
             ],
-            "name": "No keys swapped but added shortcuts",
+            "name": "Default",
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },

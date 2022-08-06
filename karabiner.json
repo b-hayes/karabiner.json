@@ -83,6 +83,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "command"
+                                        ],
+                                        "optional": [
+                                            "shift"
                                         ]
                                     }
                                 },
@@ -91,9 +94,6 @@
                                         "key_code": "left_arrow",
                                         "modifiers": [
                                             "option"
-                                        ],
-                                        "optional": [
-                                            "shift"
                                         ]
                                     }
                                 ],
@@ -129,7 +129,7 @@
                         ]
                     },
                     {
-                        "description": "LeftCtrl = Win [Open Spotlight]",
+                        "description": "LeftCtrl [Open Spotlight]",
                         "manipulators": [
                             {
                                 "from": {

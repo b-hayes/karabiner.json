@@ -17,6 +17,31 @@
                 },
                 "rules": [
                     {
+                        "description": "Ctrl+Dot => Ctrl+Command+Space (Emoji Shortcut)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "period",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "control",
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Copy => Terminate [+Terminal Emulators]",
                         "manipulators": [
                             {

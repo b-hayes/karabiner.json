@@ -139,6 +139,41 @@
                         ]
                     },
                     {
+                        "description": "Alt+d => command+l [+Browsers]",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "description": "Browsers",
+                                        "bundle_identifiers": [
+                                            "^com\\.google\\.Chrome$",
+                                            "^org\\.mozilla\\.firefox",
+                                            "^com\\.brave\\.Browser"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "l",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Command+Tab => Ctrl+Tab",
                         "manipulators": [
                             {

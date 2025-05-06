@@ -580,6 +580,23 @@
             "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         },
         {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "Ctrl+Space => Spotlight",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": { "mandatory": ["control"] }
+                                },
+                                "to": [{ "apple_vendor_keyboard_key_code": "spotlight" }],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
             "devices": [
                 {
                     "identifiers": {

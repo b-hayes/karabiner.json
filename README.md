@@ -103,10 +103,11 @@ useful when company policies restrict power settings.
 
 ## Things You Can't Fix
 
+### Needing to click things twice
 macOS often requires you to click to activate an app before you can interact with it (especially in browsers)
 forcing you to click twice all the freaking time.
 
-The numebr of times I've moved my mouse to another window and clicked something assuming it worked and moved on
+The number of times I've moved my mouse to another window and clicked something assuming it worked and moved on
 only to find it did nothing drove me insane for more than a year.
 
 Unfortunately, you can't fix this—it's due done on an app level coz of some apple guideline I think.

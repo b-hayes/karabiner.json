@@ -24,24 +24,29 @@ If you are using a PC keyboard, you only need:
 - **Command → Control**
 
 Most OS-level shortcuts use Ctrl, and app-level shortcuts use Command.
-Swapping them makes more sense for muscle memory and avoids remapping many app shortcuts.
-You also cant reliably remap things like copy and paste bold etc.
+Swapping them makes macOS feel more like **literally every other operating system** 
+for muscle memory and avoids remapping many app shortcuts.
 
+If the rest of this setup is too much just do that one remapping in the OS keyboard settings.
 
-## karabiner.json
-The [karabiner.json](karabiner.json) is my personal config.
+Otherwise, continue with...
+
+## Karabiner Elements
+
+The [karabiner.json](karabiner.json) file is my personal config for [Karabiner Elements](https://karabiner-elements.pqrs.org/).
+
 Use the `WinMac` profile (switch to `linux/win` when remote desktoping to Windows/Linux machines).
 
-The file belongs in `~/.config/karabiner` you can replace yours or
-only copy what's needed into your own.
+The file belongs in `~/.config/karabiner` you can replace yours or only copy what's needed into your own.
 
 I had already changed a bunch of keyboard mappings via the OS settings before moving to Karabiner
-so there is def things missing.
+so there is def things missing and this is not a complete config.
 
 Some shortcuts for Mission Control are still done in my os settings and haven't added them to config.
 (e.g., Win+Shift+Arrows to move apps between monitors, Win+D to show desktop).
 
-Ctrl+Q is blocked because I was constantly quitting apps by accident pressing ctl+q expecting something else to happen.
+Ctrl+Q is blocked because I was constantly quitting apps by accident because many apps
+use that shortcut for something else on other systems.
 It currently inverts screen colors as a placeholder, since you can't disable it, only override it.
 This helps condition you to stop using it until you decide on a better mapping.
 

@@ -7,6 +7,8 @@ Doing basic things in MacOS like window management and screenshotting can feel r
 This repo was originally just to keep track of my Karabiner Elements keymapping but thought id quickly
 smash this guide in here too.
 
+I dont have links to all the apps sorry, I might track them down again and add links later.
+
 It is by no means comprehensive or complete just something to help ease the pain and allow you to
 adopt a Mac with its sweet Apple Silicone chip 😍.
 
@@ -99,20 +101,31 @@ Also available via SetApp.
 Prevents your Mac from sleeping during long-running processes,
 useful when company policies restrict power settings.
 
+### Middle
+Cant remember where I got it go search for it.
+This app lets you actually use the middle mouse button!
+
+### Mouse Glide
+Go fish.
+This app fixes smooth scrolling and the scroll direction being separate from the trackpad.
+Macos disables smooth scrolling if your not using an official Apple mouse for some reason.
+This is one of many many apps that try to fix it and this one is not the best but has the least amount of problems and is free.
+
+### 
 
 ## Other Handy Apps
 
 - **MonitorControl** — Sync and control external monitor brightness with the internal display.
-- **Vivid** — Unlocks full screen brightness for outdoor use.
+- **Vivid** — Unlocks full screen brightness, great for outdoor use.
 
 
 ## Things You Can't Fix
 
 ### Needing to click things twice
-macOS often requires you to click to activate an app before you can interact with it (especially in browsers)
+macOS often requires you to focus an app before you can interact with it (especially in browsers)
 forcing you to click twice all the freaking time.
 
 The number of times I've moved my mouse to another window and clicked something assuming it worked and moved on
 only to find it did nothing drove me insane for more than a year.
 
-Unfortunately, you can't fix this—it's due done on an app level coz of some apple guideline I think.
+Unfortunately, you can't fix this—it's done on the app level coz of some apple developer guideline I think.

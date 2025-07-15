@@ -107,7 +107,7 @@ This app lets you actually use the middle mouse button!
 
 ### Mouse Glide
 Go fish.
-This app fixes smooth scrolling and the scroll direction being separate from the trackpad.
+This app fixes smooth scrolling and the scroll direction being separate from the trackpad setting.
 Macos disables smooth scrolling if your not using an official Apple mouse for some reason.
 This is one of many many apps that try to fix it and this one is not the best but has the least amount of problems and is free.
 
